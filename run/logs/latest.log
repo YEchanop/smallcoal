@@ -1,0 +1,97 @@
+[074月2026 18:42:35.754] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 305ms
+[074月2026 18:42:35.776] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 11.0.5 (CLIENT in DEV)
+[074月2026 18:42:35.776] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\simukraft\smallcoal-template-26.1.1\run
+[074月2026 18:42:35.857] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 109) in 32ms
+[074月2026 18:42:35.858] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[074月2026 18:42:35.859] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/n/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/11.0.5/b2edeab4008c91772d61f8f98a5253a09a4e890d/earlydisplay-11.0.5.jar
+[074月2026 18:42:35.860] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/n/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/11.0.5/3477e70d79fe8cd06962749f24e64f01edda3bb3/loader-11.0.5.jar
+[074月2026 18:42:35.865] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[074月2026 18:42:37.063] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[074月2026 18:42:37.128] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 GL version 3.3.0 NVIDIA 566.24, NVIDIA Corporation
+[074月2026 18:42:37.143] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates smallcoal%%D:\simukraft\smallcoal-template-26.1.1\bin\main from env
+[074月2026 18:42:37.306] [ForkJoinPool.commonPool-worker-8/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using jar(C:/Users/n/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.3/a0919957808de97707c5fb4ce073e66aeef3e187/mixinextras-neoforge-0.5.3.jar)
+[074月2026 18:42:37.307] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[074月2026 18:42:37.309] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 26.1.1 (minecraft)
+		NeoForge 26.1.1.10-beta (neoforge)
+		smallcoal 1.0.0 (smallcoal)
+[074月2026 18:42:37.379] [main/ERROR] [net.neoforged.fml.loading.FMLLoader/]: File D:/simukraft/smallcoal-template-26.1.1/bin/main is not a jar file
+java.nio.file.NoSuchFileException: At least one of the paths must exist when constructing jar contents: [D:\simukraft\smallcoal-template-26.1.1\bin\main]
+	at net.neoforged.fml.jarcontents.JarContents.ofPaths(JarContents.java:103) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator.findCandidates(InDevFolderLocator.java:46) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:79) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.runDiscovery(FMLLoader.java:673) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.lambda$runOffThread$0(FMLLoader.java:733) ~[loader-11.0.5.jar:11.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[074月2026 18:42:37.391] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 46e8a539
+[074月2026 18:42:37.393] [main/ERROR] [net.neoforged.fml.loading.modscan.BackgroundScanHandler/SCAN]: An error occurred scanning file composite(filtered(jar(D:/simukraft/smallcoal-template-26.1.1/build/moddev/artifacts/minecraft-patched-26.1.1.10-beta.jar)), filtered(jar(D:/simukraft/smallcoal-template-26.1.1/build/moddev/artifacts/minecraft-patched-26.1.1.10-beta.jar)))
+java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552) ~[?:?]
+	at net.neoforged.fml.loading.moddiscovery.ModFile.close(ModFile.java:246) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.close(FMLLoader.java:239) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.create(FMLLoader.java:415) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Entrypoint.startup(Entrypoint.java:65) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Client.main(Client.java:17) [loader-11.0.5.jar:11.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[074月2026 18:42:37.395] [main/ERROR] [net.neoforged.fml.loading.modscan.BackgroundScanHandler/SCAN]: An error occurred scanning file composite(filtered(jar(C:/Users/n/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.1.10-beta/458323735f394f42c4519389f703d65260ed476c/neoforge-26.1.1.10-beta-universal.jar)))
+java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552) ~[?:?]
+	at net.neoforged.fml.loading.moddiscovery.ModFile.close(ModFile.java:246) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.close(FMLLoader.java:239) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.create(FMLLoader.java:415) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Entrypoint.startup(Entrypoint.java:65) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Client.main(Client.java:17) [loader-11.0.5.jar:11.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[074月2026 18:42:37.395] [background-scan-handler-3/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning composite(filtered(jar(D:/simukraft/smallcoal-template-26.1.1/build/moddev/artifacts/minecraft-patched-26.1.1.10-beta.jar)), filtered(jar(D:/simukraft/smallcoal-template-26.1.1/build/moddev/artifacts/minecraft-patched-26.1.1.10-beta.jar))) path net/minecraft/util/profiling/metrics/package-info.class
+java.util.zip.ZipException: ZipFile closed
+	at java.base/java.util.zip.ZipFile.ensureOpenOrZipException(ZipFile.java:835) ~[?:?]
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:925) ~[?:?]
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:449) ~[?:?]
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:208) ~[?:?]
+	at org.objectweb.asm.ClassReader.readStream(ClassReader.java:323) ~[asm-9.9.1.jar:9.9.1]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.9.1.jar:9.9.1]
+	at net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:31) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.jarcontents.CompositeJarContents$1.visit(CompositeJarContents.java:270) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.jarcontents.JarFileContents.visitContent(JarFileContents.java:162) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.jarcontents.CompositeJarContents.visitContent(CompositeJarContents.java:278) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.jarcontents.JarContents.visitContent(JarContents.java:215) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:27) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.moddiscovery.ModFile.lambda$startScan$0(ModFile.java:160) [loader-11.0.5.jar:11.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[074月2026 18:42:37.397] [main/ERROR] [net.neoforged.fml.loading.modscan.BackgroundScanHandler/SCAN]: An error occurred scanning file jar(C:/Users/n/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.3/a0919957808de97707c5fb4ce073e66aeef3e187/mixinextras-neoforge-0.5.3.jar)
+java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552) ~[?:?]
+	at net.neoforged.fml.loading.moddiscovery.ModFile.close(ModFile.java:246) ~[loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.close(FMLLoader.java:245) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.loading.FMLLoader.create(FMLLoader.java:415) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Entrypoint.startup(Entrypoint.java:65) [loader-11.0.5.jar:11.0]
+	at net.neoforged.fml.startup.Client.main(Client.java:17) [loader-11.0.5.jar:11.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[074月2026 18:42:37.403] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[074月2026 18:42:37.404] [main/ERROR] [net.neoforged.fml.startup.Entrypoint/]: Failed to start FML: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- File D:/simukraft/smallcoal-template-26.1.1/bin/main is not a jar file
+
+	at net.neoforged.fml.loading.FMLLoader.create(FMLLoader.java:356)
+	at net.neoforged.fml.startup.Entrypoint.startup(Entrypoint.java:65)
+	at net.neoforged.fml.startup.Client.main(Client.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at net.neoforged.devlaunch.Main.main(Main.java:57)
+

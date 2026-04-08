@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:raw_gold",
+    "smallcoal:small_coal"
+  ],
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

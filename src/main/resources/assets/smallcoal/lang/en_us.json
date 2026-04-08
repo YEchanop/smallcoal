@@ -1,0 +1,12 @@
+{
+  "itemGroup.smallcoal": "Small Coal Tab",
+  "item.smallcoal.small_coal": "Small Coal",
+
+  "smallcoal.configuration.title": "smallcoal Configs",
+  "smallcoal.configuration.section.smallcoal.common.toml": "smallcoal Configs",
+  "smallcoal.configuration.section.smallcoal.common.toml.title": "smallcoal Configs",
+  "smallcoal.configuration.items": "Item List",
+  "smallcoal.configuration.logDirtBlock": "Log Dirt Block",
+  "smallcoal.configuration.magicNumberIntroduction": "Magic Number Text",
+  "smallcoal.configuration.magicNumber": "Magic Number"
+}
