@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FE"
+  ],
+  "key": {
+    "F": {
+      "item": "smallcoal:small_coal"
+    },
+    "E": {
+      "item": "minecraft:raw_copper"
+    }
+  },
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 1
+  }
+}

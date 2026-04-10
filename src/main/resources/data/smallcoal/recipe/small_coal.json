@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "id": "smallcoal:small_coal",
+    "count": 6
+  }
+}
