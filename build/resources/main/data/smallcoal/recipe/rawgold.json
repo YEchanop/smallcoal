@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FD"
+  ],
+  "key": {
+    "F": {
+      "item": "smallcoal:small_coal"
+    },
+    "D": {
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 1
+  }
+}
