@@ -1,4 +1,4 @@
-26.1.2neoforge   √(java25)
+26.1.2neoforge26.1.2.2-beta   √(java25)
 
 26.1.1neoforge   √(java25)
 
