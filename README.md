@@ -1,4 +1,4 @@
-26.1.2neoforge   未更新
+26.1.2neoforge   √(java25)
 
 26.1.1neoforge   √(java25)
 
